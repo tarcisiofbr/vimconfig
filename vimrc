@@ -72,6 +72,10 @@ nmap <C-j> 5<C-e>
 nmap <C-k> 5<C-y>
 nmap <leader>m :terminal<CR>
 nmap <leader>c :e ~/.vimrc<CR>
+" create section in file
+nmap <leader>si i.<ESC>gcclC! <ESC>100i-<ESC>0lli  <ESC>i
+" clip extra '-' at the end of section
+nmap <leader>sc 80\|C<ESC>0
 
 "" R binds
 nmap <leader>rr :terminal<CR>conda activate bioinfo<CR>R<CR><C-w>w<C-w>r
