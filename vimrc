@@ -40,9 +40,9 @@ highlight ColorColumn ctermbg=4
 
 "! Bindings  ------------------------------------------------------------------
 nnoremap <silent> <leader> :WhichKey '<Space>'<CR>
-nmap <leader>n :NERDTree<CR>
-nmap <leader>t :NERDTreeToggle<CR>
-nmap <leader>f :NERDTreeFind<CR>
+nmap <leader>n :NERDTree<CR>:set number relativenumber<CR>
+nmap <leader>t :NERDTreeToggle<CR>:set number relativenumber<CR>
+" nmap <leader>f :NERDTreeFind<CR>
 nmap <leader>e :e 
 nmap <leader>w <C-w>
 nmap <leader>bd :bd<CR>
