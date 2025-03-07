@@ -67,9 +67,10 @@ nmap <leader>sc 80\|C<ESC>0
 nmap <leader>sp :let @" = expand("%")<CR>:terminal<CR>grep "#!" <C-w>"0<CR>exit
 
 ""! R binds -------------------------------------------------------------------
-nmap <leader>rr :terminal<CR>conda activate bioinfo<CR>R<CR><C-w>w<C-w>r
+nmap <leader>ro :terminal<CR>conda activate bioinfo<CR>R<CR><C-w>w<C-w>r
 nmap <leader>rv :vsplit<CR><C-w>w:terminal<CR><C-w>w:q<CR>conda activate bioinfo<CR>R<CR><C-w>w
 nmap <leader>rl yy<C-w>w<C-w>"0<CR><C-w>wj
+nmap <leader>rr yy<C-w>w<C-w>"0<CR><C-w>w
 nmap <leader>rh viwy<C-w>whead(<C-w>"0)<CR><C-w>w
 nmap <leader>rq <C-w>wq(save="no")<CR><C-d>
 nmap <leader>rk V}y<C-w>w<C-w>"0<CR><C-w>w}
