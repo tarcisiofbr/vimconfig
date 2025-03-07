@@ -84,6 +84,7 @@ imap <C-_> <Esc>a <-
 nmap <leader>pp :terminal<CR>conda activate bioinfo<CR>ipython --no-autoindent<CR><C-w>w<C-w>r
 nmap <leader>pv :vsplit<CR><C-w>w:terminal<CR><C-w>w:q<CR>conda activate bioinfo<CR>ipython --no-autoindent<CR><C-w>w
 nmap <leader>pq <C-w>wexit()<CR><C-w>w<C-w>wexit<CR>
+nmap <leader>ph viwy<C-w>w<C-w>"0.head()<CR><C-w>w
 
 "! FIXES  ---------------------------------------------------------------------
 
