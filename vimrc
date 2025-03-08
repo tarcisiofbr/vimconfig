@@ -74,6 +74,7 @@ nmap <leader>rr yy<C-w>w<C-w>"0<CR><C-w>w
 nmap <leader>rh viwy<C-w>whead(<C-w>"0)<CR><C-w>w
 nmap <leader>rq <C-w>wq(save="no")<CR><C-d>
 nmap <leader>rk V}y<C-w>w<C-w>"0<CR><C-w>w}
+nmap <leader>ri {V}y<C-w>w<C-w>"0<CR><C-w>w}
 vmap <leader>rb y<C-w>w<C-w>"0<CR><C-w>w
 imap <C-]> <Esc>a %>% 
 imap <C-f> <Esc>a %in% 
